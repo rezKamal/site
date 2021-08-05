@@ -1,0 +1,149 @@
+@import url('http://fonts.cdnfonts.com/css/myriad-pro');
+@import url('http://fonts.cdnfonts.com/css/collegiate');
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-image: url("../images/background.gif");
+    background-size: contain;
+    padding: 3em;
+    margin-bottom: 1em;
+}
+
+h1 {
+    margin-top: 0.05em;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    display: inline;
+}
+
+.title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.4em;
+    padding: 0.4em;
+    width: 0.1em;
+    height: 0.1em;
+}
+
+#LinkedIn {
+    font-family: 'Myriad Pro', sans-serif;
+    text-decoration: none;
+    #in {
+        font-size: 24px;
+        border-radius: 8px;
+        padding: 0.2em;
+        width: 0.1em;
+        height: 0.05em;
+        background-color: rgb(0, 119, 181);
+    }
+}
+
+#Git {
+    color: #211F1F;
+    background-color: white;
+    border-radius: 8px;
+    padding: 0.2em;
+    width: 0.1em;
+    height: 0.1em;
+    font-family: 'Myriad Pro', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    display: table;
+    margin: 0 auto;
+}
+
+.links {
+    list-style: none;
+    padding: 10px;
+    li {
+        margin-inline: 24px;
+        display: inline-block;
+    }
+}
+
+.about {
+    width: 100%;
+    font-size: 28px;
+    padding: 0.5em;
+    text-align: center;
+    display: table-row;
+}
+
+.projects {
+    width: 100%;
+    font-size: 28px;
+    padding: 0.5em;
+    text-align: center;
+    display: table-row;
+    .project-list {
+        display: flex;
+    }
+}
+
+#left-col {
+    width: 300px;
+    margin: auto;
+    display: table-cell;
+}
+
+#right-col {
+    width: 100%;
+    vertical-align: top;
+    padding-right: 10%;
+    padding-left: 5%;
+    display: table-cell;
+}
+
+h2 {
+    margin: 0.5em;
+}
+
+#about_me {
+    margin: 0 auto;
+}
+
+#portrait {
+    border-radius: 100%;
+    padding: 1em;
+    width: 9em;
+}
+
+p {
+    span {
+        font-weight: bold;
+    }
+    text-align: justify;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-img {
+    width: 240px;
+    height: 240px;
+    margin: 5%;
+}
